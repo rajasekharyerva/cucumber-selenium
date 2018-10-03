@@ -4,7 +4,7 @@ Feature: This is E2E feature
 Scenario: This is E2E scenario
   Given Navigate to Application URL
   When Click Sign In
-  And Enters "<Username>" in Username
+  And Enters "User...name" in Username
   And Enters Password
   And Clicks SignIn
   Then Should land on HomePage
@@ -29,3 +29,5 @@ Scenario Outline: This is E2E scenario
 Examples:
   |Username|
   |Jason|
+Scenario: Test Scene
+  Given Sample given
